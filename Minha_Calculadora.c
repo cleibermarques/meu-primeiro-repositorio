@@ -80,7 +80,7 @@ int main()
 			//Caso a opção 4(Divisão) seja selecionada e o segundo número seja 0(zero), pergunta se deseja tentar novamente e caso usuário concorde, sistema retorna para o estado inicial.
 			if (operacao == 4 && number2 == 0)
 			{
-				printf("\r\n\nDeseja tentar novamente? [s/n] ", div);
+				printf("\r\n\nDeseja recomeçar? [s/n] ", div);
 				scanf("\n%c", &tentarNovamente);
 				if (tentarNovamente == 's' || tentarNovamente == 'S')
 				{
